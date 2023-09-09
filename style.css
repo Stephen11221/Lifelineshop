@@ -351,21 +351,33 @@
         padding: 5px 3px;
     }
 
-}
 
-.recently {
-    position: absolute;
-    margin-top: 500px;
-}
+    .container-feature {
+        width: 200px;
+        margin-top: 500px;
 
-.recently h5 {
-    position: absolute;
-    border-bottom: 1px solid gray;
-    margin-top: -500px;
+    }
+
+    .popular-order {
+        position: relative;
+        margin-top: -500px;
+    }
+
+    .recently {
+        position: relative;
+        margin-top: -30px;
+    }
+
+    .recently h5 {
+        position: absolute;
+        border-bottom: 1px solid gray;
+        margin-top: -500px;
+    }
 }
 
 .container-feature {
     position: relative;
-    margin-top: 600px;
+    margin-top: 830px;
     width: 100px;
+    margin-left: 50px;
 }
