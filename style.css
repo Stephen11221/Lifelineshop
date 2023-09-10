@@ -234,7 +234,7 @@ ul li {
     }
 
     .new-arrival {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .addvert .card {
@@ -247,7 +247,7 @@ ul li {
         width: 200px;
         position: absolute;
         margin-top: 100px;
-        margin-left: 150px;
+        margin-left: 40px;
         grid-template-columns: repeat(1, 1fr);
     }
 
