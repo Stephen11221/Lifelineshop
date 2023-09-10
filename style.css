@@ -193,7 +193,7 @@ ul li {
     color: red;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 550px) {
     .contact {
         font-size: 0.7rem;
     }
@@ -226,8 +226,7 @@ ul li {
     }
 
     .icon span {
-        font-size: 0.3rem;
-        padding-left: 12px;
+        display: none;
     }
 
 
