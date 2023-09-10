@@ -222,19 +222,24 @@ ul li {
     ul li a {
         text-decoration: none;
         color: black;
-        font-size: 0.5rem;
+        font-size: 0.2rem;
     }
 
     .icon span {
+        font-size: 0.3rem;
         padding-left: 12px;
     }
 
 
+    .search-bar input {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
 
     .search-bar button {
-        width: 140px;
+        width: 150px;
         color: #fff;
-        margin-left: 300px;
+        margin-left: 200px;
         margin-top: -40px;
     }
 
