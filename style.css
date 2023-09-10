@@ -1,383 +1,304 @@
-.header {
-    border-bottom: 1px solid gray;
-    width: 100%;
-    height: 30px;
+.shop {
+    color: blue;
+    animation: 5s myc infinite;
 }
 
-.shop-contact {
-    margin-left: 100px;
+@keyframes myc {
+    from {
+        color: blue;
+    }
+
+    to {
+        color: red;
+    }
 }
 
-.shop-contact .fa {
+.sub-navigation {
+    margin-top: -30px;
+}
+
+.sub-navigation span {
+    padding: 1px 4px;
+
+    border-right: 1px solid gray;
+}
+
+#home img {
+    width: 600px;
+    height: 300px;
+}
+
+.search-bar input {
+    width: 50%;
+    animation: 10s mysec infinite;
+    border-radius: 80px;
+    margin-left: 220px;
+    border: 2px solid blue;
+}
+
+@keyframes mysec {
+    from {
+        border: 2px solid blue;
+    }
+
+    to {
+        border: 4px groove skyblue;
+    }
+}
+
+
+.search-bar input:hover {
+    color: blue;
+}
+
+.search-bar button {
+    width: 150px;
+    padding: 5px 20px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    background: blue;
+    position: absolute;
+    margin-top: -40px;
+    color: yellow;
+    margin-left: 626px;
+}
+
+.icon {
+    margin-top: -50px;
+    margin-left: 880px;
+    font-size: 0.7rem;
+}
+
+ul {
+    margin-top: 20px;
     margin-left: 15px;
 }
 
-.header ul {
-    margin-top: -25px;
-}
-
-.header ul li {
-    list-style: none;
-    padding: 1px 6px;
-    float: left;
-    padding-right: 10px;
-    border-right: 1px solid gray;
-    text-align: center;
-}
-
-.container h1 {
-    color: blue;
-    margin-top: 25px;
-}
-
-.container .search-input {
-    margin-left: 270px;
-    margin-top: -34px;
-    border: 2px solid blue;
-    border-radius: 60px;
-    position: absolute;
-    width: 50%;
-}
-
-.container .search-input:focus {
-    border: 2px solid blue;
-}
-
-.container .search-btn {
-    position: absolute;
-    background: blue;
-    width: 120px;
-    padding: 10px 10px;
-    height: 40px;
-    color: white;
-    border: none;
-    margin-left: 790px;
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
-    margin-top: -34px;
-
-}
-
-.container .icon {
-    margin-top: -45px;
-    margin-left: 920px;
-}
-
-.container .icon span {
-    margin-left: 10px;
-}
-
-.container .navbar {
-    width: 55%;
-    margin-top: 25px;
-    margin-left: 260px;
-}
-
-.container .navbar .navlink {
-    padding: 13px 3px;
-    font-weight: bold;
-    color: black;
+ul li a {
     text-decoration: none;
+    color: black;
 }
 
-.home img {
-    height: 350px;
-}
-
-.home-img-1 {
-    width: 600px;
-}
-
-.home-img-2 {
-    width: 655px;
-}
-
-
-
-.container .grid {
-    margin-top: 80px;
-    display: grid;
-    margin-left: 20px;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.container .grid>div {
-    border: 1px solid gray;
-    border-radius: 15px;
-    padding: 10px 5px;
-}
-
-.container .grid>div img {
-    width: 150px;
-    margin-top: 30px;
-
-}
-
-.container .grid>div p {
-    font-size: 0.6rem;
-}
-
-.container .grid .price-before {
-    text-decoration: line-through;
-    color: red;
-    font-size: 16px;
-}
-
-.container .grid .current-price {
-    color: blue;
-    font-size: 20px;
-}
-
-.new {
-    width: 250px;
-    border: 2px solid yellow;
-    border-radius: 10px;
-    padding: 10px 8px;
-    margin-top: 40px;
-}
-
-.new img {
-    width: 150px;
-
-}
-
-.new .btn-addcart {
-    margin-left: 20px;
-    padding: 9px 12px;
-    border: none;
-    color: white;
-    background: red;
-
-}
-
-.sub-bar {
-    position: absolute;
-    margin-top: -480px;
-    margin-left: 350px;
-    width: 63%;
-    border-bottom: 1px solid gray;
-}
-
-.sub-bar ul li {
-    float: left;
-    text-align: right;
+ul li {
     list-style: none;
-    padding: 10px 20px;
-    font-weight: bold;
+    float: left;
+    padding: 15px 16px;
+    text-align: right;
 }
 
-.sub-bar .warning {
-    text-decoration: solid;
-    text-decoration-color: yellow;
+.addvert img {
+    width: 100px;
+}
+
+.addvert .col-lg-6 h6 {
+    margin-left: -20px;
+}
+
+.addvert .card {
+    margin-left: 10px;
+    font-size: 0.7rem;
+    width: 270px;
+}
+
+.new-arrival {
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    margin-top: 20px;
+}
+
+.new-arrival img {
+    width: 200px;
+    height: 200px;
+}
+
+.new-arrival button {
+    color: #fff;
+    border: 1px solid red;
+    background: red;
+    padding: 10px 10px;
 }
 
 .grid-display {
+    font-size: 0.8rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 320px;
     position: absolute;
-    margin-top: -380px;
-    margin-left: 270px;
+    margin-top: -400px;
 }
 
 .grid-display>div {
-    border-right: 1px solid gray;
-
+    animation: 503s infinite;
+    border-right: 1px solid grey;
 }
 
-.grid-display>div img {
-    width: 80px;
-    height: 80px;
+.grid-display img {
+    width: 150px;
+    height: 100px;
 }
 
-.text-box {
+.grid-display>div .text-box {
     background: #000;
-    margin-top: -50px;
+    padding: 2px 12px;
     margin-left: 50px;
-    border-top-right-radius: 80px;
+    width: 150px;
+    height: 40px;
     border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
-.navigation {
-    border-bottom: 1px solid gray;
+.grid-display>div:hover {
+    cursor: pointer;
+    margin-top: -35px;
+    border-right: 1px solid green;
 }
 
-.navigation a {
-    padding: 10px 15px;
-    color: black;
-    font-size: 16px;
-    text-decoration-color: yellow;
-}
-
-.navigation ul {
+.grid-display>div i {
+    margin-top: -10px;
+    font-size: 3.3rem;
     position: absolute;
-    margin-left: 240px;
-    margin-top: -33px;
+    margin-left: 12px;
 }
 
-.navigation ul li {
-    color: gray;
-    list-style: none;
-    float: left;
-    padding: 10px 15px;
-    text-align: right;
+.second-navigation {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 250px;
 }
 
-.detail {
-    font-size: 0.5rem;
-    border-right: 1px solid gray;
+.second-navigation .active {
+    border: 2px groove blue;
+    border-radius: 80px;
 }
 
-.detail- {
-    font-size: 0.5rem;
+.second-navigation span {
+    padding: 10px 16px;
 }
 
-.detail- .price-before {
-    color: red;
+.best-seller img {
+    width: 150px;
+
+}
+
+.best-seller .card {
+    height: 200px;
+    font-size: 0.9rem;
+}
+
+.price-b {
     text-decoration: line-through;
-}
-
-.detail .price-before {
     color: red;
-    text-decoration: line-through;
 }
 
-.detail .current-price {
-    font-size: 16px;
-    margin-top: 20px;
-    color: blue;
-}
-
-.detail .current-price {
-    font-size: 16px;
-    margin-top: 20px;
-    color: blue;
-}
-
-.detail-,
-.detail button {
-    border: none;
-    width: 20px;
-    height: 20px;
-    color: wh ite;
-    background: rgb(208, 207, 207);
-    border-radius: 100px;
-}
-
-.container-fluid img {
-    width: 80px;
-    height: 80px;
-}
-
-@media screen and (max-width: 720px) {
-    .header {
-        width: 100%;
-        font-size: 0.4rem;
+@media screen and (max-width: 750px) {
+    .contact {
+        font-size: 0.7rem;
     }
 
-    .header .shop-contact {
-        margin-left: 50px;
+    .sub-navigation {
+        margin-top: 5px;
+        font-size: 0.7rem;
     }
 
-    .container {
-        width: 100%;
+    .search-bar input {
+        margin-top: -19px;
+        margin-left: 155px;
+    }
+
+    .icon {
+        margin-top: 30px;
+        margin-left: 340px;
         font-size: 0.5rem;
     }
 
-    .container ul li {
-        display: none;
-        margin-left: -220px;
+    ul li {
+
+        padding: 3px 5px;
     }
 
-    .container .search-input {
-        width: 200px;
-        margin-left: 190px;
+    ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.5rem;
     }
 
-    .container .search-btn {
-        width: 90px;
-        margin-left: 360px;
+    .icon span {
+        padding-left: 12px;
     }
 
-    .container .icon {
-        display: none;
+
+
+    .search-bar button {
+        width: 140px;
+        color: #fff;
+        margin-left: 300px;
+        margin-top: -40px;
     }
 
-    .container .navbar {
-        width: 80%;
-        margin-left: 90px;
-
+    #home img {
+        width: 400px;
     }
 
-    .home img {
-        width: 370px;
+    .new-arrival {
+        margin-left: 100px;
     }
 
-    .container .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .addvert .card {
+        text-align: center;
+        margin-left: 100px;
+        width: 250px;
     }
 
     .grid-display {
-        gap: 30px;
-        margin-top: 60px;
-        margin-left: 60px;
-        grid-template-columns: repeat(2, 1fr);
+        width: 200px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 150px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .sub-bar {
+    .grid-display>div .text-box {
+        margin-left: 90px;
+    }
+
+    .grid-display .fa {
+        margin-left: 36px;
+    }
+
+    .grid-display>div {
+        width: 260px;
+        padding: 10px 15px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        animation: 200s infinite;
+    }
+
+    .grid-display>div:hover {
+        margin-left: 20px;
+        margin-top: 60px;
+
+    }
+
+    .second-navigation {
         display: none;
     }
 
-    .grid-display .text-box {
-        margin-top: -25px;
-        margin-left: -10px;
+    .toop {
+        margin-top: 1150px;
     }
 
-    .grid-display>div .fa {
-        margin-left: -34px;
-    }
-
-    .container-fluid {
-        margin-top: 900px;
-    }
-
-    .container-fluid .navigation {
-        margin-left: -200px;
-        font-size: 0.5rem;
-    }
-
-    .container-fluid .navigation ul li {
-        padding: 5px 3px;
-    }
-
-
-    .container-feature {
+    .best-seller .card {
+        margin-top: 80px;
+        height: 300px;
         width: 200px;
-        margin-top: 500px;
-
+        padding: 11px 10px;
+        margin-left: 100px;
     }
 
-    .popular-order {
-        position: relative;
-        margin-top: -500px;
+    footer {
+        display: none;
     }
-
-    .recently {
-        position: relative;
-        margin-top: -30px;
-    }
-
-    .recently h5 {
-        position: absolute;
-        border-bottom: 1px solid gray;
-        margin-top: -500px;
-    }
-}
-
-.container-feature {
-    position: relative;
-    margin-top: 830px;
-    width: 100px;
-    margin-left: 50px;
 }
