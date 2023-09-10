@@ -119,6 +119,8 @@ ul li {
     border: 1px solid red;
     background: red;
     padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .grid-display {
@@ -131,7 +133,7 @@ ul li {
 }
 
 .grid-display>div {
-    animation: 503s infinite;
+    transition: all 503ms ease;
     border-right: 1px solid grey;
 }
 
@@ -143,7 +145,7 @@ ul li {
 .grid-display>div .text-box {
     background: #000;
     padding: 2px 12px;
-    margin-left: 50px;
+    margin-left: 47px;
     width: 150px;
     height: 40px;
     border-bottom-right-radius: 80px;
@@ -161,6 +163,9 @@ ul li {
     font-size: 3.3rem;
     position: absolute;
     margin-left: 12px;
+    background: green;
+    color: #fff;
+    border-radius: 80px;
 }
 
 .second-navigation {
@@ -191,6 +196,51 @@ ul li {
 .price-b {
     text-decoration: line-through;
     color: red;
+}
+
+.third-navigation {
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.third-navigation span {
+    padding: 10px 11px;
+}
+
+.most-ordered {
+    margin-top: 50px;
+}
+
+.most-ordered img {
+    width: 160px;
+    height: 120px;
+}
+
+.third-navigation .active {
+    border: 2px groove blue;
+    border-radius: 80px;
+}
+
+.location {
+    font-size: 0.6rem;
+}
+
+footer ul {
+    width: 100px;
+}
+
+footer ul li {
+    float: inline-start;
+    text-align: left;
+    width: 200px;
+
+    padding: 10px 2px;
+}
+
+
+footer .icon-2 span {
+    margin-left: -20px;
+    padding: 10px 15px;
 }
 
 @media screen and (max-width: 750px) {
@@ -277,19 +327,24 @@ ul li {
         display: none;
     }
 
+    .third-navigation {
+        display: none;
+
+    }
+
     .toop {
         margin-top: 1150px;
     }
 
     .best-seller .card {
         margin-top: 80px;
-        height: 300px;
-        width: 200px;
+        height: 350px;
+        width: 300px;
         padding: 11px 10px;
         margin-left: 100px;
     }
 
     footer {
-        display: none;
+        display: block;
     }
 }
