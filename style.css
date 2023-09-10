@@ -195,12 +195,12 @@ ul li {
 
 @media screen and (max-width: 750px) {
     .contact {
-        font-size: 0.7rem;
+        font-size: 0.4rem;
     }
 
     .sub-navigation {
-        margin-top: 5px;
-        font-size: 0.7rem;
+        margin-top: -15px;
+        font-size: 0.4rem;
     }
 
     .icon {
