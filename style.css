@@ -339,10 +339,16 @@ footer .icon-2 span {
     .best-seller .card {
         margin-top: 80px;
         height: 350px;
-        width: 300px;
+        width: 240px;
         padding: 11px 10px;
-        margin-left: 100px;
+        margin-left: 60px;
     }
+
+    .best-seller .card:hover {
+        cursor: pointer;
+        background: lightyellow;
+    }
+
 
     footer {
         display: block;
